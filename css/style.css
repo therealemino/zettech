@@ -240,7 +240,7 @@ footer .sub-one-left p.support {
 }
 
 .carousel-caption {
-    bottom: 37%;
+    bottom: 30%;
 }
 
 .carousel-caption h2 {
@@ -262,9 +262,11 @@ footer .sub-one-left p.support {
   text-align: center;
 }
 
+.about-btn .d-flex {
+  margin-top: -80px;
+}
+
 .about-btn button {
-  position: absolute;
-  top: -80px;
   background-color: #dad5d3;
   opacity: 0.6;
   padding: 20px 16px;
@@ -777,8 +779,70 @@ footer .sub-one-left p.support {
     margin-right: -30%;
   }
 
-  .about-btn button {
-    top: -120px;
+  .about-btn .d-flex {
+    margin-top: -200px;
+    margin-bottom: 200px;
+  }
+
+  .carousel-caption {
+      bottom: 30%;
+  }
+
+  .about h1 {
+    font-size: 1.75em;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.8em;
+  }
+
+  .services {
+    padding: 50px 0 50px;
+  }
+
+  .services .feautres-tile {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .services .feautres-tile span {
+    font-size: 1.2em;
+  }
+
+  .services .feautres-tile h4 {
+    font-size: 1.12em;
+    padding-top: 5px;
+  }
+
+  .services .feautres-tile p {
+    font-size: 0.85em;
+    padding-top: 5px;
+  }
+
+  .services .feautres-tile a {
+    font-size: 0.85em;
+    margin-top: 5px;
+  }
+
+  section.mission-vison h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .testimonials div.testimony {
+    padding: 15px;
+  }
+
+  .testimonials div.testimony span {
+    font-size: 1.5em;
+  }
+
+  .testimonials div.testimony p {
+    font-size: 0.8em;
+  }
+
+  .testimonials div.testimony h4 {
+    font-size: 0.85em;
   }
 
   .tile {
