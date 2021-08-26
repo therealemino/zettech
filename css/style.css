@@ -19,7 +19,7 @@ body {
 }
 
 .bg-header {
-  background-color: #transparent;
+  background-color: transparent;
   font-family: "Signika", sans-serif;
 }
 
@@ -762,6 +762,8 @@ footer .sub-one-left p.support {
 
 @media (max-width:767.95px) { /*Phones*/
 
+  /* HOME PAGE */
+
   #navbarSupportedContent>ul>li.nav-item.active::after {
     display: none;
   }
@@ -790,6 +792,10 @@ footer .sub-one-left p.support {
 
   .about h1 {
     font-size: 1.75em;
+  }
+
+  .about p {
+    font-size: 0.85em;
   }
 
   .carousel-caption h2 {
@@ -853,6 +859,16 @@ footer .sub-one-left p.support {
     margin-left: 0;
   }
 
+  .card-header h5 {
+    font-size: 1.12em;
+  }
+
+  .card-body {
+    font-size: 0.9em;
+  }
+
+
+
   /* ABOUT PAGE */
   .mv-statement .tile {
     padding: 8%;
@@ -862,16 +878,75 @@ footer .sub-one-left p.support {
   }
 
   .abt-jumbotron {
-    position: relative;
-
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vh;
   }
 
   .abt-jumbotron h1 {
-    font-size: 3em;
-    position: absolute;
-    top: 70px;
-    left: 0px;
+    font-size: 2em;
     padding-left: 25px;
+    padding-top: 0;
+  }
+
+  .finance-services h3 {
+    font-size: 1.3em;
+  }
+
+  .finance-services p {
+    font-size: 0.85em;
+    text-align: justify;
+  }
+
+  .mv-statement {
+    margin: 30px auto;
+  }
+
+  .mv-statement h3 {
+    font-size: 0.9em;
+  }
+
+  .mv-statement p, .mv-statement li {
+    font-size: 0.7em;
+  }
+
+  .our-team {
+    margin: 30px 0;
+  }
+
+  .our-team>.container>h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .our-team>.container>p {
+    font-size: 0.9em;
+    font-style: italic;
+  }
+
+  .our-team>.container>img.img-fluid {
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .our-team>.container h3 {
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  .our-team>.container p {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
+  .our-team>.container .team-social {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
+  .our-team>.container .team-social a {
+    padding: 4px;
   }
 
   /* SERVICES PAGE */
